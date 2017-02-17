@@ -68,6 +68,7 @@ def Project_list():
         elif [reply] == '0':
             msg = render_template('last')
             i = 0
+            return statement(msg)
 
         else:
             #repeat
